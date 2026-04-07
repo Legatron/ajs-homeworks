@@ -1,0 +1,23 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "keywords": [
+    "game"
+  ],
+  "homepage": "https://github.com/Legatron/ajs-homeworks#readme",
+  "bugs": {
+    "url": "https://github.com/Legatron/ajs-homeworks/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Legatron/ajs-homeworks.git"
+  },
+  "license": "ISC",
+  "author": "Legatron",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
