@@ -1,0 +1,38 @@
+{
+  "name": "defender_game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "keywords": [
+    "game"
+  ],
+  "homepage": "https://github.com/Legatron/ajs-homeworks#readme",
+  "bugs": {
+    "url": "https://github.com/Legatron/ajs-homeworks/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Legatron/ajs-homeworks.git"
+  },
+  "license": "ISC",
+  "author": "Legatron",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.2",
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin-js": "^4.4.1",
+    "eslint": "^10.2.0",
+    "globals": "^17.4.0"
+  },
+  "dependencies": {
+    "core-js": "^3.49.0"
+  }
+}
